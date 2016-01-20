@@ -1,0 +1,34 @@
+//
+//  LYKCarouseScrollController.h
+//  lunbo
+//
+//  Created by ws on 16/1/12.
+//  Copyright © 2016年 ws. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+@class LYKLoopScrollController;
+@protocol LYKLoopScrollControllerDataSouce <NSObject>
+
+@required
+- (NSArray *)LYKLoopScrollControllerForImageUrl:(LYKLoopScrollController *)viewController;
+- (NSArray *)LYKLoopScrollControllerForImageTitle:(LYKLoopScrollController *)viewController;
+- (UIImage *)LYKLoopScrollControllerForPlaceHoderImage:(LYKLoopScrollController *)viewController;
+
+@end
+
+@protocol LYKLoopScrollControllerDelegate <NSObject>
+
+@optional
+- (void)LYKLoopScrollControllerDidChick:(LYKLoopScrollController *)viewController index:(NSInteger)index;
+
+@end
+
+@interface LYKLoopScrollController : UIViewController
+
+@property (nonatomic, weak) id<LYKLoopScrollControllerDataSouce> dataSouce;
+@property (nonatomic, weak) id<LYKLoopScrollControllerDelegate> delegate;
+@property (nonatomic, assign) NSInteger titleLabelFont;
+
+- (void)reloadData;
+@end

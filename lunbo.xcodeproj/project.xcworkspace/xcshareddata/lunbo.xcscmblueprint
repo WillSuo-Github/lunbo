@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8ebf8d78-3a94-11e5-9209-e562934ef0d6++2080",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "8ebf8d78-3a94-11e5-9209-e562934ef0d6++2080" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8ebf8d78-3a94-11e5-9209-e562934ef0d6++2080" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1D45FB0A-3790-4D61-AB0C-50EB9C014D56",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8ebf8d78-3a94-11e5-9209-e562934ef0d6++2080" : "lunbo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "lunbo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "lunbo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/119.254.224.2:8080\/svn\/mobile",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8ebf8d78-3a94-11e5-9209-e562934ef0d6++2080"
+    }
+  ]
+}
